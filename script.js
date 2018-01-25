@@ -24,3 +24,7 @@ recognition.addEventListener('result', function (e) {
 
 recognition.addEventListener('end', recognition.start);
 recognition.start();
+
+console.log(window)
+
+
